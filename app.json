@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/Find",
+    "pages/index/My",
+    "pages/index/Message"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "咚咚伴",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "position": "bottom",
+    "selectedColor": "#000000",
+    "backgroundColor": "#888888",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/Find",
+        "text": "发现",
+        "iconPath": "icons/广场.png",
+        "selectedIconPath": "icons/广场_填充.png"
+      },
+      {
+        "pagePath": "pages/index/Message",
+        "text": "消息",
+        "iconPath": "icons/信封.png",
+        "selectedIconPath": "icons/信封_填充.png"
+      },
+      {
+        "pagePath": "pages/index/My",
+        "text": "我的",
+        "iconPath": "icons/用户.png",
+        "selectedIconPath": "icons/用户_填充.png"
+      }
+    ]
+  }
+}
